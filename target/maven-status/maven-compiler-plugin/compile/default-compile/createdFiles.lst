@@ -1,5 +1,7 @@
 com\pf\argprograma\Dto\DtoPersona.class
 com\pf\argprograma\Controller\CExperienciaLaboral.class
+com\pf\argprograma\Entity\Proyectos.class
+com\pf\argprograma\Controller\CProyectos.class
 com\pf\argprograma\Entity\Persona.class
 com\pf\argprograma\Security\Repository\IRolRepository.class
 com\pf\argprograma\Security\Entity\Usuario.class
@@ -14,12 +16,14 @@ com\pf\argprograma\Security\Controller\AuthController.class
 com\pf\argprograma\Security\Dto\JwtDto.class
 com\pf\argprograma\Controller\CHys.class
 com\pf\argprograma\Security\Repository\IUsuarioRepository.class
+com\pf\argprograma\Service\SProyectos.class
 com\pf\argprograma\Security\Service\UserDetailsImpl.class
 com\pf\argprograma\Entity\ExperienciaLaboral.class
 com\pf\argprograma\Dto\DtoFormacionAcademica.class
 com\pf\argprograma\Security\Entity\UsuarioPrincipal.class
 com\pf\argprograma\Entity\HyS.class
 com\pf\argprograma\Dto\DtoExperienciaLaboral.class
+com\pf\argprograma\Service\ServExperienciaLaboral.class
 com\pf\argprograma\Repository\PersonaRepository.class
 com\pf\argprograma\Security\Service\RolService.class
 com\pf\argprograma\Service\SFormacionAcademica.class
@@ -27,8 +31,9 @@ com\pf\argprograma\Service\ImplPersonaService.class
 com\pf\argprograma\Security\Enums\RolNombre.class
 com\pf\argprograma\Service\SHyS.class
 com\pf\argprograma\Controller\CFormacionAcademica.class
+com\pf\argprograma\Repository\RProyectos.class
 com\pf\argprograma\Security\Dto\NuevoUsuario.class
-com\pf\argprograma\Security\Service\ServExperienciaLaboral.class
+com\pf\argprograma\Dto\DtoProyectos.class
 com\pf\argprograma\Repository\RHyS.class
 com\pf\argprograma\Security\Dto\LoginUsuario.class
 com\pf\argprograma\Security\JWT\JwtTokenFilter.class
