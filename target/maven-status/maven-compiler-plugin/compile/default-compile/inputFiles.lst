@@ -4,17 +4,19 @@ C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\ar
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Repository\RExperienciaLaboral.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Controller\CExperienciaLaboral.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Controller\PersonaController.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Dto\DtoPersona.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Dto\NuevoUsuario.java
-C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Interface\IPersonaService.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Dto\LoginUsuario.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Service\ServExperienciaLaboral.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Controller\AuthController.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\JWT\JwtTokenFilter.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Service\RolService.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Entity\HyS.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Repository\RFormacionAcademica.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Repository\IUsuarioRepository.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Enums\RolNombre.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\ArgprogramaApplication.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Repository\RHyS.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Repository\IRolRepository.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Service\SFormacionAcademica.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Entity\Persona.java
@@ -23,6 +25,7 @@ C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\ar
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Entity\ExperienciaLaboral.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Service\UserDetailsImpl.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Dto\DtoFormacionAcademica.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Dto\dtoHyS.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Entity\Rol.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Service\UsuarioService.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Repository\PersonaRepository.java
@@ -31,4 +34,6 @@ C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\ar
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\Entity\Usuario.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Controller\CFormacionAcademica.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Security\JWT\JwtProvider.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Service\SHyS.java
+C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Controller\CHys.java
 C:\Users\Acer\Desktop\proyecto integrador final\BACK-END\src\main\java\com\pf\argprograma\Service\ImplPersonaService.java

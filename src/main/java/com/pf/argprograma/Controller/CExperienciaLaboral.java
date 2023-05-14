@@ -4,7 +4,7 @@ package com.pf.argprograma.Controller;
 import com.pf.argprograma.Dto.DtoExperienciaLaboral;
 import com.pf.argprograma.Entity.ExperienciaLaboral;
 import com.pf.argprograma.Security.Controller.Mensaje;
-import com.pf.argprograma.Security.Service.ServExperienciaLaboral;
+import com.pf.argprograma.Service.ServExperienciaLaboral;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/experiencialaboral")
-@CrossOrigin (origins = "https://frontendportfolio-5dd24.web.app")
+@CrossOrigin (origins = {"https://frontendportfolio-5dd24.web.app", "http://localhost4200"})
+
+
 public class CExperienciaLaboral {
     @Autowired
     ServExperienciaLaboral servexperienciaLaboral;
@@ -73,7 +75,7 @@ public class CExperienciaLaboral {
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete (@PathVariable ("id") int id){
         if(!servexperienciaLaboral.existsById(id))
-            return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
         
         servexperienciaLaboral.delete(id);
         

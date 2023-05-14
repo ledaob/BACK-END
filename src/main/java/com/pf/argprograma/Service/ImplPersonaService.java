@@ -1,38 +1,54 @@
 
 package com.pf.argprograma.Service;
 
-import com.pf.argprograma.Interface.IPersonaService;
+
 import com.pf.argprograma.Entity.Persona;
 import com.pf.argprograma.Repository.PersonaRepository;
 import java.util.List;
+import java.util.Optional;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImplPersonaService implements IPersonaService{
+@Transactional
+public class ImplPersonaService  {
     @Autowired
-    private PersonaRepository personaRepository;
-
-    @Override
-    public List<Persona> getPersonas() {
-        List<Persona> listaPersonas = personaRepository.findAll();
-        return listaPersonas;
+    PersonaRepository personaRepository;
+    
+    public List<Persona> list(){
+        return personaRepository.findAll();
     }
-
-    @Override
-    public void savePersona(Persona persona) {
+    
+    public Optional<Persona> getOne(int id){
+        return personaRepository.findById(id);
+    }
+    
+    public Optional<Persona> getByNombre(String nombre){
+        return personaRepository.findByNombre(nombre);
+    }
+    
+    public void save (Persona persona){
         personaRepository.save(persona);
     }
-
-    @Override
-    public void deletePersona(Long id) {
+    
+    public void delete(int id){
         personaRepository.deleteById(id);
     }
-
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona= personaRepository.findById(id).orElse(null);
-        return persona;
+    
+    public boolean existsById(int id){
+        return personaRepository.existsById(id);
     }
+    
+    public boolean existsByNombre(String nombre){
+        return personaRepository.existsByNombre(nombre);
+    }
+    
+    
+    
+    
+    
+
+    
     
 }
